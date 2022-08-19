@@ -15,3 +15,8 @@ html {
 a.validate {
 	text-decoration: none;
 }
+
+/* List Styles */
+ul {
+	list-style-position: inside;
+}
