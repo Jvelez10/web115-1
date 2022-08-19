@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* For WEB115
+Filename: intro.css */
+
+/* Caption Styles */
+p#introCaption {
+	font-style: italic;
+}
+
+/* List Styles */
+ul {
+	text-align: left;
+}
