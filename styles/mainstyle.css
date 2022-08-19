@@ -10,3 +10,8 @@ html {
 	color: rgb(8, 50, 32);
 	text-align: center;
 }
+
+/* Link Styles */
+a.validate {
+	text-decoration: none;
+}
