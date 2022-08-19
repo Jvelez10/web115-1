@@ -6,7 +6,7 @@ Filename: mainstyle.css */
 /* HTML Style */
 html {
 	background-color: rgb(220, 208, 255);
-	font-family: "Times New Roman", Geneva, sans-serif;
+	font-family: Arial, Geneva, sans-serif;
 	color: rgb(8, 50, 32);
 	text-align: center;
 }
