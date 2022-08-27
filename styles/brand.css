@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
 
 /* For WEB115
 Filename: brand.css */
@@ -6,9 +7,15 @@ Filename: brand.css */
 /* HTML Style */
 html {
 	background-color: rgb(220, 208, 255);
-	font-family: Arial, Geneva, sans-serif;
+	font-family: 'Gentium Plus', Arial, sans-serif;
 	color: rgb(8, 50, 32);
 	text-align: center;
+}
+
+/* Body Style */
+body {
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 /* Link Styles */
