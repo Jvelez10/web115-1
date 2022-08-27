@@ -12,10 +12,28 @@ html {
 	text-align: center;
 }
 
+/* Header Styles */
+h1, h2 {
+	color: rgb(102, 0, 102);
+}
+
 /* Body Style */
 body {
 	margin-left: 25%;
 	margin-right: 25%;
+}
+
+/* Paragraph Style */
+p {
+	font-size: 110%;
+}
+
+footer p {
+	font-size: 100%;
+}
+
+p#tagline {
+	font-style: italic;
 }
 
 /* Link Styles */
