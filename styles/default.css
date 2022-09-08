@@ -23,14 +23,20 @@ body {
 	margin-right: 25%;
 }
 
-/* Paragraph Style */
-p {
-	font-size: 110%;
-}
-
+/* Footer Style */
 footer p {
 	font-size: 100%;
 	text-align: center;
+}
+
+footer nav {
+	font-size: 100%;
+	text-align: center;
+}
+
+/* Paragraph Style */
+p {
+	font-size: 110%;
 }
 
 p#tagline {
