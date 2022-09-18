@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 	<title>Silk Thread Dev's FizzBuzz</title>
 	<link href="styles/default.css" rel="stylesheet" />
-	<script src="fizzbuzz0.js"></script>
+	<script src="scripts/fizzbuzz0.js"></script>
 </head>
 <body>
 	<header>
@@ -14,14 +14,15 @@
 			<hr>
     </header>
 	<main>
-		<h2>Welcome to Silk Thread Development</h2>
-		<form action="" method="POST">
+		<h2 id="greeting">Welcome to Silk Thread Development</h2>
+		<form action="javascript:void(0);" method="post" onsubmit="greetChange()">
 			<label for="fName">First Name</label>
 			<input name="fName" id="fName" type="text" placeholder="First name" required /><br />
 			<label for="mName">Middle Initial</label>
 			<input name="mName" id="mName" type="text" placeholder="M" maxlength="1" /><br />
 			<label for="lName">Last Name</label>
-			<input name="lName" id="lName" type="text" placeholder="Last name" required />
+			<input name="lName" id="lName" type="text" placeholder="Last name" required /><br />
+			<input type="submit" value="Submit" />
 		</form>
 	</main>
 	<footer>
