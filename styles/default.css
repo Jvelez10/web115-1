@@ -55,13 +55,13 @@ ul {
 }
 
 /* Caption Styles */
-p#introCaption {
+figcaption {
 	font-style: italic;
 	text-align: center;
 }
 
 /* Image Styles */
-img#introImage {
+figure img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
